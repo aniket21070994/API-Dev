@@ -2,9 +2,12 @@ import express from "express"
 import dotenv from "dotenv"
 import bodyParser from "body-parser"
 import route from "./routes.js";
+import cors from "cors"
 dotenv.config();
 const app = express();
 
+
+app.use(cors());
 app.use(bodyParser.json()); // support json encoded bodies
 
 // Import routes from other files (GET, POST etc.)

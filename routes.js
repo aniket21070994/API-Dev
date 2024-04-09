@@ -5,6 +5,8 @@ const routes=express.Router();
 
 
 //Api get data route
+//URL=https://api-rxb0.onrender.com/api  provoding index is important while adding,editing data
+
 
 routes.get('/get',sendController); //get data from API
 
