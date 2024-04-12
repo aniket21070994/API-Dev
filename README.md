@@ -1,6 +1,6 @@
 # API Documentation
 
-This documentation outlines the API for storing and manipulating data for free. Indexing is crucial when adding or editing data using the API.
+This documentation outlines the API for storing and manipulating data for free. name is crucial when adding or editing data using the API.
 
 ## Base URL
 [https://api-rxb0.onrender.com/api](https://api-rxb0.onrender.com/api)
